@@ -4,10 +4,10 @@
 
 https://sp.eacosta.workers.dev/0:/Anime/Pel%C3%ADculas/Your%20name/Kimi%20no%20Na%20wa_%20mkv
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg" group-title="Entertainment",Iron Man 3
+#EXTINF:-1 tvg-id="Iron Man 3" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg" group-title="Entertainment",Iron Man 3
 https://sp.eacosta.workers.dev/0:/Peliculas/Iron%20Man%203_%20Full%20hd.mp4
 
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/Guardianes_de_la_galaxia-595487268-large.jpg" group-title="Entertainment3csc",Guardianes de la galaxia
+#EXTINF:-1 tvg-id="Guardianes de la galaxia" tvg-logo="https://pics.filmaffinity.com/Guardianes_de_la_galaxia-595487268-large.jpg" group-title="Entertainment3",Guardianes de la galaxia
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Guardianes%20de%20la%20galaxia.mp4
 
