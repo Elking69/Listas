@@ -7,7 +7,7 @@ https://sp.eacosta.workers.dev/0:/Anime/Pel%C3%ADculas/Your%20name/Kimi%20no%20N
 #EXTINF:-1  tvg-id="iron.man" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg" group-title="Entertainment",Iron Man 3
 https://sp.eacosta.workers.dev/0:/Peliculas/Iron%20Man%203_%20Full%20hd.mp4
 
-#EXTINF:-1 ,Guardianes de la galaxia
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/Guardianes_de_la_galaxia-595487268-large.jpg" group-title="Entertainment2",Guardianes de la galaxia
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Guardianes%20de%20la%20galaxia.mp4
 
