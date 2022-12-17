@@ -1,136 +1,609 @@
 #EXTM3U
 
-#EXTINF:-1 ,Iron Man 3
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8b/81/81/8b818146b1e872dbb5732d4e0b67ee0b.jpg" group-title="Peliculas Anime" group-title="PRUEBA",Your Name
 
-https://tartarus.feralhosting.com/firepig/JP/MOVIES/Iron%20Man%202008%201080p%20BluRay%20x264%20%20AAC%20-%20Ozlem/Iron%20Man%202008%201080p%20BluRay%20x264%20%20AAC%20-%20Ozlem.mp4
+https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name.mp4
 
-#EXTINF:-1 ,Kimi No Na Wa_ 2k
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8b/81/81/8b818146b1e872dbb5732d4e0b67ee0b.jpg" group-title="Peliculas Anime",Your Name 2K
 
-https://sp.eacosta.workers.dev/0:/Anime/Pel%C3%ADculas/Your%20name/Kimi%20no%20Na%20wa_%20mkv
+https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name%202K.mp4
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg" group-title="Entertainment",Iron Man 3
-https://sp.eacosta.workers.dev/0:/Peliculas/Iron%20Man%203_%20Full%20hd.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/55/4e/68/554e68ba7758e7f3175c00126bc9d476.jpg" group-title="Peliculas de Comedia",¿Qué pasó ayer? 2
 
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/Guardianes_de_la_galaxia-595487268-large.jpg" group-title="Entertainment",Guardianes de la galaxia
+https://sp2.eacosta.workers.dev/0:/Peliculas/%C2%BFQu%C3%A9%20Pas%C3%B3%20Ayer%20%20Parte%202.mp4
 
-https://sp.eacosta.workers.dev/0:/Peliculas/Guardianes%20de%20la%20galaxia.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/d8/82/10/d882102ceb44f7d5f70f36a0a601f96c.jpg" group-title="Peliculas de Superheroes",Spider-Man: No Way Home
 
-#EXTINF:-1 ,Kimi No Na Wa
+https://sp2.eacosta.workers.dev/0:/Peliculas/Spider-Man%20No%20Way%20Home.mp4
 
-https://plain-rice-ec1d.eacostazuluaga09.workers.dev/0:/Anime/Pel%C3%ADculas/Your%20name/Kimi%20no%20Na%20wa
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/62/25/34/62253420fd571925cc57911135e66b4c.jpg" group-title="Peliculas de Acción",Focus - Maestros De La Estafa
 
-#EXTINF:-1 ,Avengers: Age of Ultron
+https://sp2.eacosta.workers.dev/0:/Peliculas/Focus%20-%20Maestros%20De%20La%20Estafa.mp4
 
-https://sp.eacosta.workers.dev/0:/Peliculas/Avengers_%20Age%20of%20Ultron.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/47/ac/3a/47ac3a4bc5cab479f1126e01f8539b7f.jpg" group-title="Peliculas de Superheroes",Deadpool 2
 
-#EXTINF:-1 ,DBZ01 Devuelvanme a mi Gohan
+https://sp2.eacosta.workers.dev/0:/Peliculas/Deadpool%202.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Pel%C3%ADculas/DBZ01%20Devu%C3%A9lvanme%20a%20mi%20Gohan%20(1989)%20BDRip%201080p%2060fps%20Tetra%20Audio.mkv
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/47/ac/3a/47ac3a4bc5cab479f1126e01f8539b7f.jpg" group-title="Peliculas de Superheroes",Deadpool 2 - Super Duper Cut
 
-#EXTINF:-1 ,Quiero comerme tu páncreas
+https://sp2.eacosta.workers.dev/0:/Peliculas/Deadpool%202%20-%20Super%20Duper%20Cut.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Pel%C3%ADculas/%5BAnime-Esp.com%5D%20Kimi%20no%20Suizou%20wo%20Tabetai%20(BD%201080p)%20%5B096104A3%5D.mkv
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/13/cf/0e/13cf0e290ced282d8ecd057a2b914da3.jpg" group-title="Peliculas de Superheroes",Iron Man 2
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 01
+https://sp2.eacosta.workers.dev/0:/Peliculas/Iron%20Man%202.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2001.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/87/90/6f/87906f1179a139ab411f453f8eea3839.jpg" group-title="Peliculas de Superheroes",Iron Man 3
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 02
+https://sp2.eacosta.workers.dev/0:/Peliculas/Iron%20Man%203.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2001.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/91/38/f2/9138f2becbc13b422c9b223f8c1a03a3.jpg" group-title="Peliculas de Superheroes",Guardianes de la Galaxia
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 03
+https://sp2.eacosta.workers.dev/0:/Peliculas/Guardianes%20de%20la%20galaxia.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2003.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c2/13/f9/c213f9344b3fcd7c6fe3a1613b36676f.jpg" group-title="Peliculas Anime",DBZ01 Devuelvanme a mi Gohan
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 04
+https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/DBZ01%20Devu%C3%A9lvanme%20a%20mi%20Gohan.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2004.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/f5/ac/17/f5ac17cd161ef81f5adf226cdfeae792.jpg" group-title="Peliculas Anime",Quiero Comerme Tu Páncreas
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 05
+https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Quiero%20Comerme%20Tu%20P%C3%A1ncreas.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2005.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5a/61/30/5a61305d062d8702fa16e9eedf05b003.jpg" group-title="Peliculas Anime",Dragon Ball Super - Super Hero
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 06
+https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Dragon%20Ball%20Super%20-%20Super%20Hero.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2006.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 01
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 07
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep01.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2007.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 02
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 08
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep02.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2008.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 03
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 09
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep03.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2009.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 04
 
-#EXTINF:-1 tvg-logo="hhttps://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 10
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep04.mp4
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2010.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 05
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 06
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 07
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 08
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 09
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 10
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 11
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/71/ac/7a/71ac7a2a92ab2837b4dd18b948f97d85.jpg" group-title="Anime",Chainsaw Man Ep 12
+
+https://sp2.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20-%20T1%20Ep12.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 01
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2001.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 02
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2002.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 03
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2003.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 04
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2004.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 05
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2005.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 06
+
+https://sp2.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2006.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 01
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2001.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 02
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2002.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 03
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2003.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 04
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2004.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 05
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2005.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 06
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2006.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 07
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2007.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 08
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2008.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 09
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2009.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 10
+
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2010.mp4
 	
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 11
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 11
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2011.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2011.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 12
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 12
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2012.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2012.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 13
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 13
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2013.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2013.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 14
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 14
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2014.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2014.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 15
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 15
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2015.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2015.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 16
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 16
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2016.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2016.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 17
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 17
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2017.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2017.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 18
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 18
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2018.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2018.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 19
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 19
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2019.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2019.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 20
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 20
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2020.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2020.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 21
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 21
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2021.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2021.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April Ep 22
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 22
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20Ep%2022.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20Ep%2022.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/11/07/80/1107804e92bc4fabb1140588b16b8ce6.jpg" group-title="Your lie in april",Your lie in April OVA
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep OVA
 
-https://sp.eacosta.workers.dev/0:/Anime/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso%20-%20OVA.mp4
+https://sp2.eacosta.workers.dev/0:/Anime/Your%20Lie%20In%20April/Your%20Lie%20In%20April%20-%20OVA.mp4
 
-#EXTINF:-1 ,Chainsaw Man Ep 01
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 01
 
-https://sp.eacosta.workers.dev/0:/Anime/ChainSawMan/Chainsaw%20Man%20Season%201%20Episode%2001.mp4
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP01.mp4
 
-#EXTINF:-1 ,Dragon Ball Z Ep 01
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 02
 
-https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z_%20Ep%2001.mp4
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP02.mp4
 
-#EXTINF:-1 ,Dragon Ball Z Ep 02
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 03
 
-https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z_%20Ep%2002.mp4
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP03.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 04
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 05
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 06
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 07
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 08
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 09
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 10
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 11
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 12
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP12.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 13
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP13.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 14
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP14.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 15
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP15.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 16
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP16.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 17
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP17.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 18
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP18.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 19
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP19.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 20
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP20.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 21
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP21.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 22
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP22.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 23
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP23.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 24
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP24.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 25
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP25.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 26
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP26.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 27
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP27.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 28
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP28.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 29
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP29.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/56/55/55/565555b9a2b0d788ce32caeca69ff939.jpg" group-title="Doramas",Maid's Revenge - EP 30
+
+https://sp2.eacosta.workers.dev/0:/Series/Maid%27s%20Revenge%20/Maid%27s%20Revenge%20-%20EP30.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep01
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep01.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep02
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep02.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep03
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep03.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep04
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep05
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep06
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep07
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep08
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep09
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep10
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep11
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep12
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep12.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep13
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep13.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep14
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep14.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep15
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep15.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep16
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep16.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep17
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep17.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep18
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep18.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep19
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep19.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep20
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep20.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep21
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep21.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep22
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep22.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep23
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep23.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep24
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep24.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep25
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep25.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep26
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep26.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep27
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep27.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep28
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep28.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep29
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep29.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep30
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep30.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/54/b1/86/54b1860ad138cb4f5c16325030adb720.jpg" group-title="Doramas",Love Scenery - S1 Ep31
+
+https://sp2.eacosta.workers.dev/0:/Series/Love%20Scenery/Love%20Scenery%20-%20S1%20Ep31.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 01
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2001.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 02
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2002.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime", More than a Married Couple S1 Ep 03
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2003.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 04
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2004.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 05
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2005.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 06
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2006.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 07
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2007.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 08
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2008.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 09
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2009.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 10
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2010.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 11
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2011.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/81/4e/8e/814e8e708b182df9bb7cd9c61cf37a49.jpg" group-title="Anime",More than a Married Couple S1 Ep 12
+
+https://sp2.eacosta.workers.dev/0:/Anime/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers/More%20than%20a%20Married%20Couple,%20but%20Not%20Lovers%20-%20S1%20Ep%2012.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep01
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep01.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep02
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep02.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep03
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep03.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep04
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep05
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep06
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep07
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep08
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep09
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep10
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep11
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep12
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep12.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep13
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep13.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep14
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep14.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep15
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep15.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep16
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep16.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep17
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep17.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep18
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep18.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep19
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep19.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep20
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep20.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep21
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep21.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep22
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep22.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep23
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep23.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep24
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep24.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/10/32/281032724ab945ea0420ee79dafe700a.jpg" group-title="Anime",Summertime Render - S1 Ep25
+
+https://sp2.eacosta.workers.dev/0:/Anime/Summertime%20Render/Summertime%20Render%20-%20S1%20Ep25.mp4
