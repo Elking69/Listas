@@ -1,5 +1,21 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c2/dd/14/c2dd149a189676845d1a0056295d0120.jpg" group-title="Peliculas Navideñas",Mi pobre angelito
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Mi%20pobre%20angelito.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/07/0f/68/070f68b2b6f1b7f729b137402b52c8bd.jpg" group-title="Peliculas de Superheroes",X-Men: Días del futuro pasado
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/X-Men%3A%20D%C3%ADas%20del%20futuro%20pasado.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/57/8d/54/578d54afa867888cef270b3f8810781e.jpg" group-title="Peliculas Navideñas",Menores sin control
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Menores%20sin%20control.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/53/46/b1/5346b16b80567f0f4ba49d6d5c041cf2.jpg" group-title="Peliculas Navideñas",Santa Cláusula
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Santa%20Cl%C3%A1usula.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8b/81/81/8b818146b1e872dbb5732d4e0b67ee0b.jpg" group-title="Peliculas Anime",Your Name
 
 https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name.mp4
