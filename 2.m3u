@@ -1,5 +1,13 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/09/33/fb/0933fb1b9f48659657e8e5f514c937c8.jpg" group-title="Peliculas de Superheroes",The Amazing Spider-Man 2: La amenaza de Electro
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/The%20Amazing%20Spider-Man%202%3A%20La%20amenaza%20de%20Electro.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e9/bb/16/e9bb168dd24cbe5823b00b41ea46ea74.jpg" group-title="Peliculas Navideñas",El Grinch
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Grinch.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c2/dd/14/c2dd149a189676845d1a0056295d0120.jpg" group-title="Peliculas Navideñas",Mi pobre angelito
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Mi%20pobre%20angelito.mp4
