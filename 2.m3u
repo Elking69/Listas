@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/98/e5/b7/98e5b7f1583e506d9518275ca2049e3d.jpg" group-title="Peliculas de Romance",Loco y estúpido amor
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Loco%20y%20est%C3%BApido%20amor.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/09/33/fb/0933fb1b9f48659657e8e5f514c937c8.jpg" group-title="Peliculas de Superheroes",The Amazing Spider-Man 2: La amenaza de Electro
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/The%20Amazing%20Spider-Man%202%3A%20La%20amenaza%20de%20Electro.mp4
