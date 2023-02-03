@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/4c/70/86/4c70862909cd648bab3d91b1ec925ba1.jpg" group-title="Peliculas de Superheroes",Spider-Man: Into the Spider-Verse
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Spider-Man%20Into%20the%20Spider-Verse.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/28/16/26/281626f0cfe94caa9b5dc1ea66b59952.jpg" group-title="Peliculas de Superheroes",Iron Man
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Iron%20Man.mp4
