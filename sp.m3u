@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/79/76/61/7976616d4b09fbbdff890a4cc42eeded.jpg" group-title="Peliculas de Fantasía",El Aprendiz de Brujo
+
+https://sp.eacosta.workers.dev/0:/Peliculas/El%20Aprendiz%20de%20Brujo.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/9c/52/c7/9c52c76604c31629e4ad73a6fe4fa70d.jpg" group-title="Peliculas de Drama",La Ballena (The Whale)
 
 https://sp.eacosta.workers.dev/0:/Peliculas/The%20Whale.mp4
@@ -399,6 +403,62 @@ https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 06
 
 https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2006.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 07
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2007.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 08
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2008.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 09
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2009.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 10
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2010.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 11
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2011.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 12
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2012.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 13
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2013.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 14
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2014.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 15
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2015.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 16
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2016.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 17
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2017.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 18
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2018.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 19
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2019.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5b/b8/98/5bb898fb5c64d3f12bec4deb944641f7.jpg" group-title="Anime",Dragon Ball Z Ep 20
+
+https://sp.eacosta.workers.dev/0:/Anime/Dragon%20Ball%20Z/Dragon%20Ball%20Z%20-%20Ep%2020.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/a3/8f/b8/a38fb8db1270fd763dd02773930fb913.jpg" group-title="Anime",Your lie in April Ep 01
 
@@ -1912,6 +1972,10 @@ https://sp.eacosta.workers.dev/0:/Anime/Kimetsu%20No%20Yaiba/Kimetsu%20No%20Yaib
 
 https://sp.eacosta.workers.dev/0:/Anime/Kimetsu%20No%20Yaiba/Kimetsu%20No%20Yaiba%20-%20S3%20Ep03.mp4
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/0a/01/e0/0a01e03784da5741b4cd34eb12a881f5.jpg" group-title="Anime",Demon Slayer - S3 Ep04
+
+https://sp.eacosta.workers.dev/0:/Anime/Kimetsu%20No%20Yaiba/Kimetsu%20No%20Yaiba%20-%20S3%20Ep04.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e6/d3/41/e6d341cef6f12bec70ce6b3b06789ffe.jpg" group-title="Anime",Tengoku Daimakyou - S1 Ep01
 
 https://sp.eacosta.workers.dev/0:/Anime/Tengoku%20Daimakyou/Tengoku%20Daimakyou%20-%20S1%20Ep01.mp4
@@ -1927,6 +1991,10 @@ https://sp.eacosta.workers.dev/0:/Anime/Tengoku%20Daimakyou/Tengoku%20Daimakyou%
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e6/d3/41/e6d341cef6f12bec70ce6b3b06789ffe.jpg" group-title="Anime",Tengoku Daimakyou - S1 Ep04
 
 https://sp.eacosta.workers.dev/0:/Anime/Tengoku%20Daimakyou/Tengoku%20Daimakyou%20-%20S1%20Ep04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e6/d3/41/e6d341cef6f12bec70ce6b3b06789ffe.jpg" group-title="Anime",Tengoku Daimakyou - S1 Ep05
+
+https://sp.eacosta.workers.dev/0:/Anime/Tengoku%20Daimakyou/Tengoku%20Daimakyou%20-%20S1%20Ep05.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep01
 
@@ -1960,7 +2028,7 @@ https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventu
 
 https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T1%20Ep08.mp4
 
-EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep09
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep09
 
 https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T1%20Ep09.mp4
 
@@ -1992,7 +2060,7 @@ https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventu
 
 https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T1%20Ep16.mp4
 
-EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep17
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep17
 
 https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T1%20Ep17.mp4
 
@@ -2031,6 +2099,162 @@ https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventu
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T1 Ep26
 
 https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T1%20Ep26.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep01
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep01.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep02
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep02.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep03
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep03.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep04
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep05
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep06
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep07
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep08
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep09
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep10
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep11
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep12
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep12.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep13
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep13.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep14
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep14.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep15
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep15.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep16
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep16.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep17
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep17.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep18
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep18.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep19
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep19.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep20
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep20.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep21
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep21.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep22
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep22.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep23
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep23.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep24
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep24.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep25
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep25.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/bb/94/1e/bb941e043463e560970de284e0f82d77.jpg" group-title="Series Infantiles",Hora de Aventura - T2 Ep26
+
+https://sp.eacosta.workers.dev/0:/Series/Hora%20de%20Aventura/Hora%20de%20Aventura%20-%20T2%20Ep26.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep00
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep00.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep01
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep01.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep02
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep02.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep03
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep03.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep04
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep04.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep05
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep05.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep06
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep06.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep07
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep07.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep08
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep08.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep09
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep09.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep10
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep10.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep11
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep11.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8d/7b/e7/8d7be77f591a15a6e116b6b9d788680d.jpg" group-title="Series Infantiles",Un Show Más - T1 Ep12
+
+https://sp.eacosta.workers.dev/0:/Series/Un%20Show%20M%C3%A1s/Un%20Show%20M%C3%A1s%20-%20T1%20Ep12.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/a5/d7/f3/a5d7f3d35bd4cb3ffd88c968ad9a390d.jpg" group-title="Anime",Kimi wa Houkago Insomnia - T1 Ep01
 
