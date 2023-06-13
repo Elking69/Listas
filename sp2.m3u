@@ -1,7 +1,18 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/87/46/5b/87465be951846467a89b512b218bd3c2.jpg" group-title="Peliculas de Superheroes",Logan
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f4/b0/68/f4b068a006d9ce45e1cf9a041459f7dc.jpg" group-title="Peliculas de Superheroes",Avengers Endgame
+https://sp2.eacosta.workers.dev/0:/Peliculas/Logan.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/45/3a/63/453a6360774e59a3066eafc0bb882134.jpg" group-title="Peliculas de Romance",Eterno resplandor de una mente sin recuerdos
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Eterno%20resplandor%20de%20una%20mente%20sin%20recuerdos.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f1/b9/27/f1b92784b1b1dad840b9a271588dab08.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f4/b0/68/f4b068a006d9ce45e1cf9a041459f7dc.jpg" group-title="Peliculas de Superheroes",Avengers: Endgame
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Avengers%20-%20Endgame.mp4
 
@@ -149,11 +160,11 @@ https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name.mp4
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Gato%20con%20botas%20-%20El%20%C3%BAltimo%20deseo.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/58/8d/92/588d926b97e38873a455939eb4901a67.jpg" group-title="Peliculas de Superheroes",Avengers - Infinity War
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/58/8d/92/588d926b97e38873a455939eb4901a67.jpg" group-title="Peliculas de Superheroes",Avengers: Infinity War
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Avengers%20-%20Infinity%20War.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/1c/00/b9/1c00b92941e3a9bf15d80937e2deb7c7.jpg" group-title="Peliculas de Superheroes",Doctor Strange - In The Multiverse Of Madness
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/1c/00/b9/1c00b92941e3a9bf15d80937e2deb7c7.jpg" group-title="Peliculas de Superheroes",Doctor Strange: In The Multiverse Of Madness
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Doctor%20Strange%20-%20In%20The%20Multiverse%20Of%20Madness.mp4
 
@@ -225,7 +236,7 @@ https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/DBZ01%20Devuelvanme%20
 
 https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Quiero%20Comerme%20Tu%20P%C3%A1ncreas.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5a/61/30/5a61305d062d8702fa16e9eedf05b003.jpg" group-title="Peliculas Anime",Dragon Ball Super - Super Hero
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/5a/61/30/5a61305d062d8702fa16e9eedf05b003.jpg" group-title="Peliculas Anime",Dragon Ball Super: Super Hero
 
 https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Dragon%20Ball%20Super%20-%20Super%20Hero.mp4
 
