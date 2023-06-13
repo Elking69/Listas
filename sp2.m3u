@@ -1,5 +1,10 @@
 #EXTM3U
 
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f4/b0/68/f4b068a006d9ce45e1cf9a041459f7dc.jpg" group-title="Peliculas de Superheroes",Avengers Endgame
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Avengers%20-%20Endgame.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/79/76/61/7976616d4b09fbbdff890a4cc42eeded.jpg" group-title="Peliculas de Fantasía",El Aprendiz de Brujo
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Aprendiz%20de%20Brujo.mp4
