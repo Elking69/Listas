@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/2b/2d/97/2b2d971dbe22c675181e94e100be1ac9.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche asciende
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche%20asciende.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/87/46/5b/87465be951846467a89b512b218bd3c2.jpg" group-title="Peliculas de Superheroes",Logan
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Logan.mp4
