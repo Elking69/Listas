@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/24/22/3e/24223eed9067f39613dc6c1fa1a8cdba.jpg" group-title="Peliculas de Acción",Top Gun: Maverick
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Top%20Gun%3A%20Maverick.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/2b/2d/97/2b2d971dbe22c675181e94e100be1ac9.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche asciende
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche%20asciende.mp4
