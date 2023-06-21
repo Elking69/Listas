@@ -1,5 +1,17 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/bf/21/53/bf21532004e88486de60dc6d6c351f79.jpg" group-title="Peliculas de Terror",Masacre en Texas (1974)
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Masacre%20en%20Texas%20%281974%29.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/53/77/31/537731c199408dfd470710a039729903.jpg" group-title="Peliculas Infantiles",Spirit: el corcel indomable
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Spirit%20-%20el%20corcel%20indomable.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/67/b9/11/67b91192e6f862a6e39a0c3dad458786.jpg" group-title="Peliculas de Drama",Babylon
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Babylon.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/24/22/3e/24223eed9067f39613dc6c1fa1a8cdba.jpg" group-title="Peliculas de Acción",Top Gun: Maverick
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Top%20Gun%3A%20Maverick.mp4
