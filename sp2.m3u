@@ -1,5 +1,25 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/3f/49/d0/3f49d05a79e879b302eede7df5698d66.jpg" group-title="Peliculas de Ciencia Ficción",Al Filo Del Mañana
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Al%20Filo%20Del%20Ma%C3%B1ana.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/61/81/4b/61814b90de05534e1ba97bae573ce61d.jpg" group-title="Peliculas de Terror",It: Capítulo 2
+
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/be/2b/63/be2b63ea2fb4275cd1aa8d8a1161d3f0.jpg" group-title="Peliculas de Drama",Beau Tiene Miedo
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Beau%20Tiene%20Miedo.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/d5/b3/08/d5b308db745fd40f32f4b879dd8ec48e.jpg" group-title="Peliculas de Ciencia Ficción",Dune
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Dune.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/24/11/f7/2411f7040e6f7135dc7f9f688e8f53c8.jpg" group-title="Peliculas de Ciencia Ficción",Titanes del Pacífico
+
+
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/b9/10/92/b910920c280378dbc0ce2ff536523852.jpg" group-title="Peliculas Infantiles",The Super Mario Bros. Movie
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/The%20Super%20Mario%20Bros.%20Movie.mp4
