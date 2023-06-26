@@ -72,7 +72,7 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/Avengers%20-%20Endgame.mp4
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Aprendiz%20de%20Brujo.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/6e/51/b6/6e51b63aa7608f10d814ecab49ff649d.jpg" group-title="Peliculas Animadas",Ben 10 - Destrucción Alienígena
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/6e/51/b6/6e51b63aa7608f10d814ecab49ff649d.jpg" group-title="Peliculas Infantiles",Ben 10 - Destrucción Alienígena
 
 https://sp2.eacosta.workers.dev/0:/Series/Ben%2010/Ben%2010%20-%20Destrucci%C3%B3n%20Alien%C3%ADgena.mp4
 
@@ -96,7 +96,7 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Origen%20%28Inception%29.mp4
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Mi%20Primer%20Amor.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/14/f0/04/14f004b7a16e43f357f3aac9b06a1d9c.jpg" group-title="Peliculas Animadas",Lluvia de hamburguesas
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/14/f0/04/14f004b7a16e43f357f3aac9b06a1d9c.jpg" group-title="Peliculas Infantiles",Lluvia de hamburguesas
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Lluvia%20de%20hamburguesas.mp4
 
@@ -108,7 +108,7 @@ https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Kimi%20wa%20Kanata.mp4
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Spider-Man%202.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/a7/a4/a5/a7a4a5fce94587dfbddc629e1019a40c.jpg" group-title="Peliculas Animadas",Spider-Man: Into the Spider-Verse
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/a7/a4/a5/a7a4a5fce94587dfbddc629e1019a40c.jpg" group-title="Peliculas de Superheroes",Spider-Man: Into the Spider-Verse
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Spider-Man%20Into%20the%20Spider-Verse.mp4
 
@@ -208,7 +208,7 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/Santa%20Cl%C3%A1usula.mp4
 
 https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c9/7b/f0/c97bf0ded7750f6eed3f5ff2882e9be6.jpg" group-title="Peliculas Animadas",Gato con botas 2: El último deseo
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c9/7b/f0/c97bf0ded7750f6eed3f5ff2882e9be6.jpg" group-title="Peliculas Infantiles",Gato con botas 2: El último deseo
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Gato%20con%20botas%20-%20El%20%C3%BAltimo%20deseo.mp4
 
@@ -236,7 +236,7 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/%C2%BFQu%C3%A9%20Pas%C3%B3%20Ayer%2
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Maze%20Runner%3A%20Correr%20o%20Morir.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/67/37/d0/6737d09d0dccfccc83e56c14afd8778f.jpg" group-title="Peliculas Animadas",El planeta del tesoro
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/67/37/d0/6737d09d0dccfccc83e56c14afd8778f.jpg" group-title="Peliculas Infantiles",El planeta del tesoro
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Planeta%20Del%20Tesoro.mp4
 
@@ -255,10 +255,6 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/Focus%20-%20Maestros%20De%20La%20Es
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/8e/9f/61/8e9f61ae88fd59e5495b8267c6983a25.jpg" group-title="Peliculas de Terror",Terrifier 2
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Terrifier%202.mp4
-
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/47/ac/3a/47ac3a4bc5cab479f1126e01f8539b7f.jpg" group-title="Peliculas de Superheroes",Deadpool 2
-
-https://sp2.eacosta.workers.dev/0:/Peliculas/Deadpool%202.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/47/ac/3a/47ac3a4bc5cab479f1126e01f8539b7f.jpg" group-title="Peliculas de Superheroes",Deadpool 2 - Super Duper Cut
 
