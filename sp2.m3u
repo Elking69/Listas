@@ -4,6 +4,10 @@
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/D%C3%ADa%20De%20La%20Independencia.mp4
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/a1/0e/4d/a10e4d1ca55d53aa142538726ea1c9d5.jpg" group-title="Peliculas de Ciencia Ficción",Los Cazafantasmas
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/Los%20Cazafantasmas.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/3f/49/d0/3f49d05a79e879b302eede7df5698d66.jpg" group-title="Peliculas de Ciencia Ficción",Al Filo Del Mañana
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Al%20Filo%20Del%20Ma%C3%B1ana.mp4
@@ -216,7 +220,11 @@ https://sp2.eacosta.workers.dev/0:/Peliculas/Santa%20Cl%C3%A1usula.mp4
 
 https://sp2.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Your%20Name.mp4
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c9/7b/f0/c97bf0ded7750f6eed3f5ff2882e9be6.jpg" group-title="Peliculas Infantiles",Gato con botas 2: El último deseo
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/c4/70/98/c470983478cf32a8174b8d115e9c61f0.jpg" group-title="Peliculas Infantiles",El Gato con botas
+
+https://sp2.eacosta.workers.dev/0:/Peliculas/El%20Gato%20Con%20Botas.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/c9/7b/f0/c97bf0ded7750f6eed3f5ff2882e9be6.jpg" group-title="Peliculas Infantiles",El Gato con botas 2: El último deseo
 
 https://sp2.eacosta.workers.dev/0:/Peliculas/Gato%20con%20botas%20-%20El%20%C3%BAltimo%20deseo.mp4
 
