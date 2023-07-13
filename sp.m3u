@@ -1,5 +1,21 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/e0/6f/50/e06f50e9d0b67f9d6fa8fc664cb3de25.jpg" group-title="Peliculas de Superheroes",The Batman
+
+https://sp.eacosta.workers.dev/0:/Peliculas/The%20Batman.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/6c/05/b0/6c05b03dfb3a836612a1dea4af4c39c4.jpg" group-title="Peliculas de Crimen",Scarface 
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Scarface.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f0/aa/29/f0aa297a5ba4428c30aa59a7f25ddbb8.jpg" group-title="Peliculas de Aventuras",Piratas del Caribe: La maldición del Perla Negra
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Piratas%20del%20Caribe%3A%20La%20maldici%C3%B3n%20del%20Perla%20Negra.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/0b/88/c1/0b88c1a31f2dc999b22c04358e574872.jpg" group-title="Peliculas de Romance",Life in a Year: Toda una vida en un año
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Toda%20Una%20Vida%20En%20Un%20A%C3%B1o.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/24/20/cc/2420cc9dd45584f59eb755d9b745db37.jpg" group-title="Peliculas de Ciencia Ficción",Día de la Independencia
 
 https://sp.eacosta.workers.dev/0:/Peliculas/D%C3%ADa%20De%20La%20Independencia.mp4
@@ -60,6 +76,14 @@ https://sp.eacosta.workers.dev/0:/Peliculas/Top%20Gun%3A%20Maverick.mp4
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Top%20Gun%3A%20Pasi%C3%B3n%20y%20gloria.mp4
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/12/5f/8c/125f8c7fab8309908be92cbadf01cf9d.jpg" group-title="Peliculas de Superheroes",Batman: Inicia
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20Inicia.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f1/b9/27/f1b92784b1b1dad840b9a271588dab08.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/2b/2d/97/2b2d971dbe22c675181e94e100be1ac9.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche asciende
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche%20asciende.mp4
@@ -71,10 +95,6 @@ https://sp.eacosta.workers.dev/0:/Peliculas/Logan.mp4
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/45/3a/63/453a6360774e59a3066eafc0bb882134.jpg" group-title="Peliculas de Romance",Eterno resplandor de una mente sin recuerdos
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Eterno%20resplandor%20de%20una%20mente%20sin%20recuerdos.mp4
-
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f1/b9/27/f1b92784b1b1dad840b9a271588dab08.jpg" group-title="Peliculas de Superheroes",Batman: El caballero de la noche
-
-https://sp.eacosta.workers.dev/0:/Peliculas/Batman%20-%20El%20caballero%20de%20la%20noche.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/f4/b0/68/f4b068a006d9ce45e1cf9a041459f7dc.jpg" group-title="Peliculas de Superheroes",Avengers: Endgame
 
