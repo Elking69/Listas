@@ -1,5 +1,13 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/b9/f7/58/b9f75837d5e832c66621446f561247b6.jpg" group-title="Peliculas de Superheroes",Guardianes De La Galaxia Vol. 3
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Guardianes%20De%20La%20Galaxia%20Vol.%203.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/d2/58/eb/d258ebee571c5389a8a83a53efbf97e5.jpg" group-title="Peliculas de Ciencia Ficción",Ready Player One
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Ready%20Player%20One.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/e0/6f/50/e06f50e9d0b67f9d6fa8fc664cb3de25.jpg" group-title="Peliculas de Superheroes",The Batman
 
 https://sp.eacosta.workers.dev/0:/Peliculas/The%20Batman.mp4
@@ -115,6 +123,14 @@ https://sp.eacosta.workers.dev/0:/Peliculas/The%20Whale.mp4
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/c1/f1/9f/c1f19fb30e376c0378633392cbcc58f6.jpg" group-title="Peliculas de Suspenso",El Silencio de los Inocentes
 
 https://sp.eacosta.workers.dev/0:/Peliculas/El%20Silencio%20de%20los%20Inocentes.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/11/a5/f8/11a5f88bdec1470d3f99881740629b39.jpg" group-title="Peliculas Anime",Tenki no Ko
+
+https://sp.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Tenki%20No%20Ko.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/e3/80/e9/e380e910ebbd92e65b64d81d170ed1e1.jpg" group-title="Peliculas Anime",Suzume no Tojimari
+
+https://sp.eacosta.workers.dev/0:/Pel%C3%ADculas%20Anime/Suzume%20no%20Tojimari.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/7b/ff/c4/7bffc4df347ba56cdccf6d0d15bf306c.jpg" group-title="Peliculas Anime",Jujutsu Kaisen 0
 
