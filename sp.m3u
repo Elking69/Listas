@@ -1,5 +1,45 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/7a/94/11/7a94113e63ad595eea353f61ce6d730b.jpg" group-title="Peliculas Infantiles",Mulan
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Mulan.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/b3/a4/e4/b3a4e43681c715ddcdfb78e6a83117b5.jpg" group-title="Peliculas de Acción",Rocky IV
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Rocky%20IV.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/14/85/2f/14852f7543946466caca0cfd2cbfd1cf.jpg" group-title="Peliculas de Acción",Rocky III
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Rocky%20III.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/23/2b/74/232b742832781114be95d07ea3a445ec.jpg" group-title="Peliculas de Acción",Rocky II
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Rocky%20II.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/d7/27/8a/d7278a3f7b75750a2eb644676f43196d.jpg" group-title="Peliculas de Acción",Rocky
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Rocky.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/67/a6/db/67a6dbcc22fe19c280c62d2ac1b752b4.jpg" group-title="Peliculas de Superheroes",The Flash
+
+https://sp.eacosta.workers.dev/0:/Peliculas/The%20Flash.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/8f/f3/df/8ff3df3758ecffcd511a2b920acce54e.jpg" group-title="Peliculas de Ciencia Ficción",Life: Vida Inteligente
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Life%3A%20Vida%20Inteligente.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/49/b2/f6/49b2f68c1f64230d307d3f091fa09067.jpg" group-title="Peliculas de Aventuras",Piratas del Caribe: El cofre de la muerte
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Piratas%20del%20Caribe%3A%20El%20cofre%20de%20la%20muerte.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/33/b9/de/33b9de6874f3094bb7557933668c826c.jpg" group-title="Peliculas de Ciencia Ficción",Transformers: El Despertar de las Bestias
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Transformers%3A%20El%20Despertar%20de%20las%20Bestias.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/c5/4c/e3/c54ce3b334bcbc2e56d36284ca68201c.jpg" group-title="Peliculas de Superheroes",Justice League: The Flashpoint Paradox
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Justice%20League%3A%20The%20Flashpoint%20Paradox.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/b9/f7/58/b9f75837d5e832c66621446f561247b6.jpg" group-title="Peliculas de Superheroes",Guardianes De La Galaxia Vol. 3
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Guardianes%20De%20La%20Galaxia%20Vol.%203.mp4
@@ -118,7 +158,7 @@ https://sp.eacosta.workers.dev/0:/Series/Ben%2010/Ben%2010%20-%20Destrucci%C3%B3
  
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/9c/52/c7/9c52c76604c31629e4ad73a6fe4fa70d.jpg" group-title="Peliculas de Drama",La Ballena (The Whale)
 
-https://sp.eacosta.workers.dev/0:/Peliculas/The%20Whale.mp4
+https://sp.eacosta.workers.dev/0:/Peliculas/The%20Whale%3A%20La%20Ballena.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/c1/f1/9f/c1f19fb30e376c0378633392cbcc58f6.jpg" group-title="Peliculas de Suspenso",El Silencio de los Inocentes
 
