@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/99/27/e5/9927e59269b1355b36ee744d8fb42264.jpg" group-title="Peliculas de Superheroes",Spider-Man: Across the Spider-Verse
+
+https://sp.eacosta.workers.dev/0:/Peliculas/Spider-Man%20Across%20the%20Spider-Verse.mp4
+
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/750x/7a/94/11/7a94113e63ad595eea353f61ce6d730b.jpg" group-title="Peliculas Infantiles",Mulan
 
 https://sp.eacosta.workers.dev/0:/Peliculas/Mulan.mp4
