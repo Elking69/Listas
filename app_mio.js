@@ -6262,31 +6262,76 @@ function file_video(path) {
       video_subtitle_langs = ["en"];
   }
 
-  let player_items = [
-      {
-          text: "MXPlayer(Free)",
-          href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
-      },
-      {
-          text: "MXPlayer(Pro)",
-          href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
-      },
-      {
-          text: "nPlayer", href: `nplayer-${url}`
-      },
-      {
-          text: "VLC",
-          href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${path};end`,
-      },
-      {
-          text: "PotPlayer", href: `potplayer://${url}`
-      },
-  ]
-      .map(
-          (it) =>
-              `<li class="mdui-menu-item"><a href="${it.href}" class="mdui-ripple">${it.text}</a></li>`
-      )
-      .join("");
+function getPlayerItems(url, path) {
+  const ua = navigator.userAgent.toLowerCase();
+
+  const isAndroid = ua.includes("android");
+  const isIOS = /iphone|ipad|ipod/.test(ua);
+  const isPC = !isAndroid && !isIOS;
+
+  let items = [];
+
+  // ANDROID
+  if (isAndroid) {
+    items.push({
+      text: "VLC (Android)",
+      href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${path};end`,
+    });
+
+    items.push({
+      text: "MX Player",
+      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;end`,
+    });
+  }
+
+  // iOS
+  if (isIOS) {
+    items.push({
+      text: "VLC (iPhone)",
+      href: `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(url)}`,
+    });
+
+    items.push({
+      text: "nPlayer (iPhone)",
+      href: `nplayer-${url}`,
+    });
+  }
+
+  // PC
+  if (isPC) {
+    items.push({
+      text: "VLC (PC)",
+      href: `vlc://${url}`,
+    });
+
+    items.push({
+      text: "PotPlayer",
+      href: `potplayer://${url}`,
+    });
+  }
+
+  // fallback universal
+  items.push({
+    text: "Abrir / Descargar",
+    href: url,
+    target: "_blank",
+  });
+
+  return items
+    .map(
+      (it) =>
+        `<li class="mdui-menu-item">
+          <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
+            ${it.text}
+          </a>
+        </li>`
+    )
+    .join("");
+	}
+
+
+let player_items = getPlayerItems(url, path);
+	
   player_items += `<li class="mdui-divider"></li>
                    <li class="mdui-menu-item"><a id="copy-link" class="mdui-ripple">Copy Link</a></li>`;
   const playBtn = `
