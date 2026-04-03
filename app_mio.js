@@ -6262,6 +6262,12 @@ function file_video(path) {
       video_subtitle_langs = ["es"];
 	  video_subtitle_langs = ["en"];
   }
+
+<li class="mdui-menu-item">
+  <a href="javascript:void(0)" onclick="abrirM3U('URL_DEL_VIDEO', 'NOMBRE_VIDEO')" class="mdui-ripple">
+    Abrir en VLC
+  </a>
+</li>
 	
 // 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
 function abrirM3U(url, nombre) {
@@ -6318,6 +6324,11 @@ function getPlayerItems(url, path) {
       name: path
     });
 
+items.push({
+  text: "(PC)",
+  href: "javascript:void(0)",
+  onclick: `abrirM3U('${url}', '${path}')`
+});
 
     items.push({
       text: "PotPlayer",
