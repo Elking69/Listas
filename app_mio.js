@@ -6262,12 +6262,6 @@ function file_video(path) {
       video_subtitle_langs = ["es"];
 	  video_subtitle_langs = ["en"];
   }
-
-<li class="mdui-menu-item">
-  <a href="javascript:void(0)" onclick="abrirM3U('URL_DEL_VIDEO', 'NOMBRE_VIDEO')" class="mdui-ripple">
-    Abrir en VLC
-  </a>
-</li>
 	
 // 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
 function abrirM3U(url, nombre) {
@@ -6350,7 +6344,7 @@ items.push({
       if (it.action === "m3u") {
         return `
         <li class="mdui-menu-item">
-          <a href="#" onclick="abrirM3U('${encodeURIComponent(it.url)}','${encodeURIComponent(it.name)}'); return false;" class="mdui-ripple">
+          <a href="#" onclick="abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;" class="mdui-ripple">
             ${it.text}
           </a>
         </li>`;
@@ -6358,7 +6352,12 @@ items.push({
 
       return `
       <li class="mdui-menu-item">
-        <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
+        <a 
+  href="${it.href}" 
+  ${it.onclick ? `onclick="${it.onclick}; return false;"` : ''} 
+  ${it.target ? 'target="_blank"' : ''} 
+  class="mdui-ripple"
+>
           ${it.text}
         </a>
       </li>`;
