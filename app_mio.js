@@ -6263,22 +6263,36 @@ function file_video(path) {
 	  video_subtitle_langs = ["en"];
   }
 	
-// 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
-function abrirM3U(url, nombre) {
-  const worker = "https://m3u.eacosta.workers.dev/";
-  // Construye la URL final para el Worker M3U
-  const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${nombre || "video.m3u"}`;
+// 🔧 FUNCIÓN PARA FORMATEAR NOMBRE DE DESCARGA
+function formatearNombreArchivo(path) {
+  // Quita prefijo "/0:/"
+  let nombre = path.replace(/^\/0:\/?/, ""); 
+  // Reemplaza / y : por espacios
+  nombre = nombre.replace(/\//g, " ").replace(/:/g, " ");
+  // Quita la extensión .mp4
+  nombre = nombre.replace(/\.mp4$/i, "");
+  return nombre;
+}
 
-  // Crea un link temporal para forzar la descarga
+// 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
+function abrirM3U(url, path) {
+  const worker = "https://m3u.eacosta.workers.dev/";
+
+  // URL del Worker con la extensión completa (para reproducir)
+  const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`;
+
+  // Nombre limpio para descarga
+  const nombreDescarga = formatearNombreArchivo(path);
+
   const link = document.createElement("a");
   link.href = finalUrl;
-  link.download = nombre ? decodeURIComponent(nombre) : "video.m3u";
+  link.download = nombreDescarga || "video.m3u";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 }
 
-// 🔧 FUNCIÓN PARA GENERAR LOS ITEMS DEL PLAYER
+// 🔧 FUNCIÓN PARA GENERAR ITEMS DEL PLAYER
 function getPlayerItems(url, path) {
   const ua = navigator.userAgent.toLowerCase();
   const isAndroid = ua.includes("android");
@@ -6320,7 +6334,7 @@ function getPlayerItems(url, path) {
       href: "#",
       action: "m3u",
       url: url,
-      name: encodeURIComponent(path), // 🔹 escapar caracteres especiales
+      name: path, // se limpia en abrirM3U
     });
 
     items.push({
@@ -6336,7 +6350,7 @@ function getPlayerItems(url, path) {
     target: "_blank",
   });
 
-  // Genera el HTML de los items
+  // Genera el HTML
   return items
     .map((it) => {
       if (it.action === "m3u") {
@@ -6365,20 +6379,20 @@ function getPlayerItems(url, path) {
 
 // 🔥 EJECUCIÓN
 let player_items = getPlayerItems(url, path);
-// Ahora puedes inyectar `player_items` en tu menú:
+// Inserta el HTML en tu menú
 // document.getElementById("menu-player").innerHTML = player_items;
 
-// 🔹 LISTENER GLOBAL PARA M3U
+// 🔹 LISTENER GLOBAL PARA BOTONES M3U
 document.addEventListener("click", function(e) {
   const el = e.target.closest(".abrir-m3u");
   if (!el) return;
 
   const url = el.dataset.url;
-  const name = el.dataset.name;
+  const path = el.dataset.name;
 
-  abrirM3U(url, name);
+  abrirM3U(url, path);
 
-  e.preventDefault(); // evita que el link haga algo más
+  e.preventDefault();
 });
 	
   player_items += `<li class="mdui-divider"></li>
