@@ -6360,7 +6360,7 @@ function getPlayerItems(url, path) {
 if (isPC) {
   items.push({
     text: "(PC)",
-    href: url,               // Directamente la URL HTTP/HTTPS
+    href: `vlc://${url}`,               // Directamente la URL HTTP/HTTPS
     target: "_blank",        // Opcional: fuerza abrir en nueva pestaña
     className: "vlc-link",   // clase para estilo si quieres
   });
