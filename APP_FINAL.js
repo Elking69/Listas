@@ -6312,13 +6312,16 @@ function getPlayerItems(url, path) {
   const isIOS = /iphone|ipad|ipod/.test(ua);
   const isPC = !isAndroid && !isIOS;
 
+// extraer solo el nombre
+  const nameOnly = path.split("/").pop().replace(/\.[^/.]+$/, "");
+
   let items = [];
 
   // --- ANDROID ---
   if (isAndroid) {
     items.push({
       text: "VLC (Android)",
-      href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${encodeURIComponent(path)};end`,
+      href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${encodeURIComponent(nameOnly)};end`,
     });
 
     items.push({
@@ -6331,7 +6334,7 @@ function getPlayerItems(url, path) {
   if (isIOS) {
     items.push({
       text: "VLC (iPhone)",
-      href: `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`,
+      href: `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(url)}&title=${encodeURIComponent(nameOnly)}`,
     });
 
     items.push({
