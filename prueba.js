@@ -1,112 +1,28 @@
-// ================= CONFIG =================
+// ================== CONFIG ==================
 const DRIVE = window.current_drive_order || 0;
-const BASE = `/${DRIVE}:/`;
 
-// ================= INIT =================
+// ================== INIT ==================
+document.body.style.background = "#141414";
+document.body.style.color = "white";
+document.body.style.fontFamily = "Arial, sans-serif";
+
+// contenedor principal
 document.body.innerHTML = `
-<div class="app">
-  <header class="navbar">
-    <div class="logo">NETDRIVE</div>
-    <input id="search" placeholder="Buscar..." />
-  </header>
-
-  <div id="hero"></div>
-
-  <div id="content"></div>
+<div style="padding:15px;">
+  <h2 style="color:red;">NETDRIVE</h2>
+  <input id="search" placeholder="Buscar..." 
+    style="padding:8px;width:300px;margin-bottom:20px;border-radius:5px;border:none;">
+  <div id="list"></div>
 </div>
 `;
 
-// ================= STYLES =================
-const style = document.createElement("style");
-style.innerHTML = `
-body {
-  margin:0;
-  background:#141414;
-  color:white;
-  font-family:sans-serif;
-}
-
-.navbar {
-  display:flex;
-  justify-content:space-between;
-  padding:15px;
-  background:linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
-  position:fixed;
-  width:100%;
-  z-index:10;
-}
-
-.logo {
-  font-size:22px;
-  font-weight:bold;
-  color:red;
-}
-
-#search {
-  padding:8px;
-  border:none;
-  border-radius:4px;
-}
-
-#hero {
-  height:300px;
-  background-size:cover;
-  display:flex;
-  align-items:end;
-  padding:20px;
-}
-
-.row {
-  margin:20px;
-}
-
-.row h2 {
-  margin-bottom:10px;
-}
-
-.cards {
-  display:flex;
-  overflow-x:auto;
-  gap:10px;
-}
-
-.card {
-  min-width:160px;
-  height:220px;
-  background:#222;
-  border-radius:8px;
-  cursor:pointer;
-  position:relative;
-  transition:0.3s;
-}
-
-.card:hover {
-  transform:scale(1.1);
-}
-
-.card img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:8px;
-}
-
-.card span {
-  position:absolute;
-  bottom:5px;
-  left:5px;
-  font-size:12px;
-}
-`;
-document.head.appendChild(style);
-
-// ================= FETCH FILES =================
-async function getFiles(path = "/") {
+// ================== FETCH ==================
+async function getFiles(path) {
   let form = new FormData();
   form.append("page_token", "");
   form.append("page_index", 0);
 
-  let res = await fetch(`${BASE}${path}`, {
+  let res = await fetch(path, {
     method: "POST",
     body: form
   });
@@ -114,68 +30,88 @@ async function getFiles(path = "/") {
   return await res.json();
 }
 
-// ================= RENDER =================
-async function init() {
+// ================== RENDER ==================
+async function render() {
 
-  // 🔥 REDIRECT DIRECTO A TU CARPETA
-  if (location.pathname === "/0:/") {
-    location.replace("/0:/Series%20y%20Peliculas/");
+  let path = location.pathname;
+
+  // 🔥 REDIRECT AUTOMÁTICO A TU CARPETA
+  if (path === `/${DRIVE}:/`) {
+    location.replace(`/${DRIVE}:/Series%20y%20Peliculas/`);
     return;
   }
 
-  let data = await getFiles(location.pathname.replace(BASE, ""));
+  let data = await getFiles(path);
 
-  renderHero(data.files);
-  renderRows(data.files);
+  if (!data || !data.files) {
+    document.getElementById("list").innerHTML = "No hay archivos";
+    return;
+  }
+
+  renderFiles(data.files);
 }
 
-function renderHero(files) {
-  let random = files[Math.floor(Math.random() * files.length)];
-  document.getElementById("hero").style.backgroundImage =
-    `url(https://via.placeholder.com/800x300?text=${random.name})`;
-}
+// ================== NETFLIX STYLE ==================
+function renderFiles(files) {
 
-function renderRows(files) {
-  let container = document.getElementById("content");
-  container.innerHTML = "";
+  let list = document.getElementById("list");
+  list.innerHTML = "";
 
-  createRow("Todo", files);
-}
-
-function createRow(title, files) {
-  let row = document.createElement("div");
-  row.className = "row";
-
-  row.innerHTML = `<h2>${title}</h2><div class="cards"></div>`;
-  let cards = row.querySelector(".cards");
+  let container = document.createElement("div");
+  container.style.display = "flex";
+  container.style.flexWrap = "wrap";
+  container.style.gap = "15px";
 
   files.forEach(file => {
+
+    // ignorar carpetas (opcional)
     if (file.mimeType === "application/vnd.google-apps.folder") return;
 
     let card = document.createElement("div");
-    card.className = "card";
+    card.style.width = "150px";
+    card.style.cursor = "pointer";
+    card.style.transition = "0.3s";
+
+    card.onmouseenter = () => card.style.transform = "scale(1.1)";
+    card.onmouseleave = () => card.style.transform = "scale(1)";
 
     card.innerHTML = `
-      <img src="https://via.placeholder.com/200x300?text=${file.name}">
-      <span>${file.name}</span>
+      <div style="
+        height:220px;
+        background:#222;
+        border-radius:10px;
+        overflow:hidden;
+      ">
+        <img 
+          src="https://via.placeholder.com/200x300?text=${encodeURIComponent(file.name)}" 
+          style="width:100%;height:100%;object-fit:cover;"
+        >
+      </div>
+      <div style="font-size:12px;margin-top:5px;">
+        ${file.name}
+      </div>
     `;
 
     card.onclick = () => openFile(file);
 
-    cards.appendChild(card);
+    container.appendChild(card);
   });
 
-  document.getElementById("content").appendChild(row);
+  list.appendChild(container);
 }
 
-// ================= OPEN FILE =================
+// ================== OPEN FILE ==================
 function openFile(file) {
-  let path = location.pathname + "/" + file.name;
-  window.open(path + "?a=view", "_blank");
+  let path = location.pathname;
+
+  if (!path.endsWith("/")) path += "/";
+
+  window.open(path + file.name + "?a=view", "_blank");
 }
 
-// ================= SEARCH =================
+// ================== SEARCH ==================
 document.getElementById("search").addEventListener("keypress", async (e) => {
+
   if (e.key !== "Enter") return;
 
   let q = e.target.value;
@@ -192,8 +128,8 @@ document.getElementById("search").addEventListener("keypress", async (e) => {
 
   let data = await res.json();
 
-  renderRows(data.files || []);
+  renderFiles(data.files || []);
 });
 
-// ================= START =================
-init();
+// ================== START ==================
+render();
