@@ -5886,8 +5886,7 @@ function append_files_to_list(path, files) {
       }
       html += `<li class="mdui-list-item file mdui-ripple" target="_blank"><a gd-type="${item.mimeType}" href="${p}" class="${c}">
 	          <div class="mdui-col-xs-12 mdui-col-sm-7 mdui-text-truncate" title="${item.name}">
-	         <img src="https://drive.google.com/thumbnail?id=${item.id}&sz=w320" 
-     style="width:100%;height:230px;object-fit:cover;border-radius:10px;">
+	          <i class="mdui-icon material-icons">insert_drive_file</i>
 	            ${item.name}
 	          </div>
 	          <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
@@ -6900,63 +6899,14 @@ $(function () {
   render(path);
 });
 
-const style = document.createElement("style");
-style.innerHTML = `
-body {
-  background:#141414 !important;
-  color:white !important;
-}
+(function () {
+  const TARGET_PATH = "/0:/Series y Peliculas/";
 
-/* contenedor */
-#list {
-  display:flex;
-  flex-wrap:wrap;
-  gap:16px;
-  padding:20px;
-}
-
-/* cada item */
-#list li {
-  width:160px;
-  list-style:none;
-  background:none !important;
-}
-
-/* tarjeta */
-#list li a {
-  display:block;
-  text-decoration:none;
-  color:white;
-}
-
-/* imagen fake tipo poster */
-#list li a::before {
-  content:"";
-  display:block;
-  height:230px;
-  background:#222 url('https://via.placeholder.com/200x300') center/cover;
-  border-radius:10px;
-  margin-bottom:6px;
-}
-
-/* título */
-#list li .mdui-text-truncate {
-  font-size:12px !important;
-}
-
-/* hover */
-#list li:hover {
-  transform:scale(1.08);
-  transition:0.3s;
-}
-
-/* ocultar cosas innecesarias */
-.dummyclass,
-.mdui-col-sm-3,
-.mdui-col-sm-2 {
-  display:none !important;
-}
-`;
-document.head.appendChild(style);
-
-
+  // Si estás en root, redirige automáticamente
+  if (
+    location.pathname === "/0:/" ||
+    location.pathname === "/"
+  ) {
+    location.replace(TARGET_PATH);
+  }
+})();
