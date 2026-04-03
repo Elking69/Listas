@@ -6265,13 +6265,17 @@ function file_video(path) {
 	
 // 🔧 FUNCIÓN PARA FORMATEAR NOMBRE DE DESCARGA
 function formatearNombreArchivo(path) {
-  // Quita prefijo "/0:/"
-  let nombre = path.replace(/^\/0:\/?/, ""); 
-  // Reemplaza / y : por espacios
-  nombre = nombre.replace(/\//g, " ").replace(/:/g, " ");
-  // Quita la extensión .mp4
+  // Extrae solo el nombre del archivo (elimina subcarpetas)
+  let partes = path.split("/"); // divide por "/"
+  let nombre = partes[partes.length - 1]; // toma solo el último segmento
+
+  // Reemplaza %20 y otros caracteres de URL por espacios
+  nombre = decodeURIComponent(nombre);
+
+  // Quita la extensión .mp4 si existe
   nombre = nombre.replace(/\.mp4$/i, "");
-  return nombre;
+
+  return nombre.trim(); // quita espacios extra al inicio/final
 }
 
 // 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
@@ -6379,7 +6383,7 @@ function getPlayerItems(url, path) {
 
 // 🔥 EJECUCIÓN
 let player_items = getPlayerItems(url, path);
-// Inserta el HTML en tu menú
+// Inserta el HTML en tu menú si quieres:
 // document.getElementById("menu-player").innerHTML = player_items;
 
 // 🔹 LISTENER GLOBAL PARA BOTONES M3U
