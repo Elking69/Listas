@@ -6913,3 +6913,7 @@ $(function () {
     location.replace(TARGET_PATH);
   }
 })();
+
+setTimeout(() => {
+  document.title = "Series y Peliculas";
+}, 500);
