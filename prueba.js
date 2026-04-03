@@ -5828,37 +5828,39 @@ function append_files_to_list(path, files) {
   var $list = $("#list");
   var is_lastpage_loaded = null === $list.data("nextPageToken");
   var is_firstpage = "0" == $list.data("curPageIndex");
-
-  let cards = `<div style="
-    display:flex;
-    flex-wrap:wrap;
-    gap:16px;
-    padding:20px;
-  ">`;
-
+  html = "";
+  let targetFiles = [];
   for (i in files) {
     var item = files[i];
-
-    var p = path + encodeURIComponent(item.name)
-      .replaceAll("%5C", "%5C%5C")
-      .replace(/[!'()*]/g, escape);
-
+    var p = path + encodeURIComponent(item.name).replaceAll("%5C", "%5C%5C").replace(/[!'()*]/g, escape) + "/";		// Adding folder name to url 
     if (item.size == undefined) {
       item.size = "";
     }
-
     item.modifiedTime = utc2local(item.modifiedTime);
     item.size = formatFileSize(item.size);
-
-    let isFolder = item.mimeType == "application/vnd.google-apps.folder";
-
-    if (isFolder) p += "/";
-
-    var ddl_link = p;
-    const filepath = path + item.name;
-
-    // 👇 mantener lógica interna (IMPORTANTE)
-    if (!isFolder) {
+    if (item.mimeType == "application/vnd.google-apps.folder") {
+      html += `<li class="mdui-list-item mdui-ripple"><a href="${p}" class="folder">
+	            <div class="mdui-col-xs-12 mdui-col-sm-7 mdui-text-truncate" title="${item.name}">
+	            <i class="mdui-icon material-icons">folder_open</i>
+	              ${item.name}
+	            </div>
+	            <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	            <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
+	            </a>
+              <div class="mdui-col-sm-2 mdui-text-right dummyclass">
+	              <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                  <i class="mdui-icon material-icons dummyclass">launch</i>
+                </button>
+                <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${p}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                  <i class="mdui-icon material-icons dummyclass">content_copy</i>
+                </button>
+              </div>
+	        </li>`;
+    } else {
+      var p = path + encodeURIComponent(item.name).replaceAll("%5C", "%5C%5C").replace(/[!'()*]/g, escape);	// Adding file name to url
+      var ddl_link = p;
+      const filepath = path + item.name;
+      var c = "file";
       if (is_lastpage_loaded && item.name == "README.md" && !UI.hide_readme_md) {
         get_file(p, item, function (data) {
           markdown("#readme_md", data);
@@ -5869,66 +5871,41 @@ function append_files_to_list(path, files) {
           markdown("#head_md", data);
         });
       }
+      var ext = p.split(".").pop().toLowerCase();
+      if (
+        "|html|php|css|go|java|js|json|txt|sh|md|mp4|webm|avi|bmp|jpg|jpeg|png|gif|m4a|mp3|flac|wav|ogg|mpg|mpeg|mkv|rm|rmvb|mov|wmv|asf|ts|flv|pdf|".indexOf(
+          `|${ext}|`
+        ) >= 0
+      ) {
+        targetFiles.push(filepath);
+        p += "?a=view";
+        c += " view";
+      }
+      if (item["size"] === ""){
+        item["size"] = "— — —";
+      }
+      html += `<li class="mdui-list-item file mdui-ripple" target="_blank"><a gd-type="${item.mimeType}" href="${p}" class="${c}">
+	          <div class="mdui-col-xs-12 mdui-col-sm-7 mdui-text-truncate" title="${item.name}">
+	          <i class="mdui-icon material-icons">insert_drive_file</i>
+	            ${item.name}
+	          </div>
+	          <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	          <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
+	          </a>
+            <div class="mdui-col-sm-2 mdui-text-right dummyclass">
+	            <button onclick="window.open('${ddl_link}','_self')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                <i class="mdui-icon material-icons dummyclass">file_download</i>
+              </button>
+              <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                <i class="mdui-icon material-icons dummyclass">launch</i>
+              </button>
+              <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${ddl_link}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                <i class="mdui-icon material-icons dummyclass">content_copy</i>
+              </button>
+            </div>
+	      </li>`;
     }
-
-    var ext = p.split(".").pop().toLowerCase();
-    let viewLink = p;
-
-    if (
-      "|html|php|css|go|java|js|json|txt|sh|md|mp4|webm|avi|bmp|jpg|jpeg|png|gif|m4a|mp3|flac|wav|ogg|mpg|mpeg|mkv|rm|rmvb|mov|wmv|asf|ts|flv|pdf|".indexOf(
-        `|${ext}|`
-      ) >= 0
-    ) {
-      viewLink += "?a=view";
-    }
-
-    if (item["size"] === "") {
-      item["size"] = "— — —";
-    }
-
-    // 🎬 TARJETA TIPO NETFLIX
-    cards += `
-      <div style="
-        width:160px;
-        cursor:pointer;
-        transition:0.3s;
-      "
-      onmouseenter="this.style.transform='scale(1.08)'"
-      onmouseleave="this.style.transform='scale(1)'"
-      onclick="${
-        isFolder
-          ? `window.location.href='${p}'`
-          : `window.open('${viewLink}','_blank')`
-      }"
-      >
-        <div style="
-          height:230px;
-          background:#222;
-          border-radius:10px;
-          overflow:hidden;
-        ">
-          <img 
-            src="${
-              isFolder
-                ? "https://cdn-icons-png.flaticon.com/512/716/716784.png"
-                : `https://via.placeholder.com/200x300?text=${encodeURIComponent(item.name)}`
-            }"
-            style="width:100%;height:100%;object-fit:cover;"
-          >
-        </div>
-
-        <div style="font-size:12px;margin-top:6px;">
-          ${item.name}
-        </div>
-      </div>
-    `;
   }
-
-  cards += `</div>`;
-
-  // 🔥 render final
-  $list.html(cards);
-}
   if (targetFiles.length > 0) {
     let old = localStorage.getItem(path);
     let new_children = targetFiles;
@@ -6921,4 +6898,64 @@ $(function () {
   var path = window.location.pathname;
   render(path);
 });
+
+const style = document.createElement("style");
+style.innerHTML = `
+body {
+  background:#141414 !important;
+  color:white !important;
+}
+
+/* contenedor */
+#list {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  padding:20px;
+}
+
+/* cada item */
+#list li {
+  width:160px;
+  list-style:none;
+  background:none !important;
+}
+
+/* tarjeta */
+#list li a {
+  display:block;
+  text-decoration:none;
+  color:white;
+}
+
+/* imagen fake tipo poster */
+#list li a::before {
+  content:"";
+  display:block;
+  height:230px;
+  background:#222 url('https://via.placeholder.com/200x300') center/cover;
+  border-radius:10px;
+  margin-bottom:6px;
+}
+
+/* título */
+#list li .mdui-text-truncate {
+  font-size:12px !important;
+}
+
+/* hover */
+#list li:hover {
+  transform:scale(1.08);
+  transition:0.3s;
+}
+
+/* ocultar cosas innecesarias */
+.dummyclass,
+.mdui-col-sm-3,
+.mdui-col-sm-2 {
+  display:none !important;
+}
+`;
+document.head.appendChild(style);
+
 
