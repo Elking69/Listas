@@ -5637,7 +5637,6 @@ function title(path) {
   } else {
     if (UI.title_include_path && path !== "Series y Peliculas/") {
   display_title += ` - ${path}`
-}
     }
     $('title').html(display_title);
   }
