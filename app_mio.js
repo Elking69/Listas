@@ -6269,9 +6269,13 @@ function abrirM3U(url, nombre) {
 
   const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${encodeURIComponent(nombre)}`;
 
-  window.location.href = finalUrl;
+  const link = document.createElement("a");
+  link.href = finalUrl;
+  link.download = nombre || "video.m3u";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
-
 
 function getPlayerItems(url, path) {
   const ua = navigator.userAgent.toLowerCase();
@@ -6344,7 +6348,7 @@ items.push({
       if (it.action === "m3u") {
         return `
         <li class="mdui-menu-item">
-          <a href="#" onclick="abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;" class="mdui-ripple">
+          <a href="javascript:void(0)" onclick="abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;" class="mdui-ripple">
             ${it.text}
           </a>
         </li>`;
