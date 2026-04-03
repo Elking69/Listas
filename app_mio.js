@@ -6314,19 +6314,14 @@ function getPlayerItems(url, path) {
 
   // PC (MEJORADO 🔥)
   if (isPC) {
-    items.push({
-      text: "Abrir en VLC (PC)",
-      href: "#",
-      action: "m3u",
-      url: url,
-      name: path
-    });
+  items.push({
+    text: "Abrir en VLC (PC)",
+    href: "#",
+    action: "m3u",
+    url: url,
+    name: encodeURIComponent(path) // 🔹 escapar caracteres especiales
+  });
 
-items.push({
-  text: "(PC)",
-  href: "javascript:void(0)",
-  onclick: `abrirM3U('${url}', '${path}')`
-});
 
     items.push({
       text: "PotPlayer",
@@ -6884,5 +6879,5 @@ document.addEventListener("click", function(e) {
 
   abrirM3U(url, name);
 
-  e.preventDefault(); // evita que el link haga algo más
+  e.preventDefault();
 });
