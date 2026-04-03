@@ -6354,11 +6354,6 @@ function getPlayerItems(url, path) {
       text: "PotPlayer",
       href: `potplayer://${url}`,
     });
-
-	  items.push({
-      text: "(PC)",
-      href: `vlc://open?url=${encodeURIComponent(url)}`, // Aquí está la modificación
-    });
 	  
   }
 
