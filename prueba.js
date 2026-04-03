@@ -1,4 +1,10 @@
 /*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */
+
+setTimeout(() => {
+  document.title = "Series y Peliculas";
+}, 500);
+
+
 !(function (e, t) {
   "use strict";
   "object" == typeof module && "object" == typeof module.exports
@@ -6913,7 +6919,3 @@ $(function () {
     location.replace(TARGET_PATH);
   }
 })();
-
-setTimeout(() => {
-  document.title = "Series y Peliculas";
-}, 500);
