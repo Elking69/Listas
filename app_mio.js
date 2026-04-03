@@ -6266,27 +6266,28 @@ function file_video(path) {
 // 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
 function abrirM3U(url, nombre) {
   const worker = "https://m3u.eacosta.workers.dev/";
+  // Construye la URL final para el Worker M3U
+  const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${nombre || "video.m3u"}`;
 
-  const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${encodeURIComponent(nombre)}`;
-
+  // Crea un link temporal para forzar la descarga
   const link = document.createElement("a");
   link.href = finalUrl;
-  link.download = nombre || "video.m3u";
+  link.download = nombre ? decodeURIComponent(nombre) : "video.m3u";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 }
 
+// 🔧 FUNCIÓN PARA GENERAR LOS ITEMS DEL PLAYER
 function getPlayerItems(url, path) {
   const ua = navigator.userAgent.toLowerCase();
-
   const isAndroid = ua.includes("android");
   const isIOS = /iphone|ipad|ipod/.test(ua);
   const isPC = !isAndroid && !isIOS;
 
   let items = [];
 
-  // ANDROID
+  // --- ANDROID ---
   if (isAndroid) {
     items.push({
       text: "VLC (Android)",
@@ -6299,7 +6300,7 @@ function getPlayerItems(url, path) {
     });
   }
 
-  // iOS
+  // --- iOS ---
   if (isIOS) {
     items.push({
       text: "VLC (iPhone)",
@@ -6312,63 +6313,73 @@ function getPlayerItems(url, path) {
     });
   }
 
-  // PC (MEJORADO 🔥)
+  // --- PC ---
   if (isPC) {
-  items.push({
-    text: "Abrir en VLC (PC)",
-    href: "#",
-    action: "m3u",
-    url: url,
-    name: encodeURIComponent(path) // 🔹 escapar caracteres especiales
-  });
-
+    items.push({
+      text: "Abrir en VLC (PC)",
+      href: "#",
+      action: "m3u",
+      url: url,
+      name: encodeURIComponent(path), // 🔹 escapar caracteres especiales
+    });
 
     items.push({
       text: "PotPlayer",
       href: `potplayer://${url}`,
     });
-	
   }
 
-  // fallback universal
+  // --- Fallback universal ---
   items.push({
     text: "Descargar",
     href: url,
     target: "_blank",
   });
 
+  // Genera el HTML de los items
   return items
     .map((it) => {
-      // 🔥 MANEJO SEGURO (CLAVE)
       if (it.action === "m3u") {
-  return `
-  <li class="mdui-menu-item">
-    <a href="#" 
-       class="mdui-ripple abrir-m3u" 
-       data-url="${it.url}" 
-       data-name="${it.name}">
-      ${it.text}
-    </a>
-  </li>`;
-}
+        return `
+          <li class="mdui-menu-item">
+            <a href="#"
+               class="mdui-ripple abrir-m3u"
+               data-url="${it.url}"
+               data-name="${it.name}">
+              ${it.text}
+            </a>
+          </li>`;
+      }
 
       return `
-      <li class="mdui-menu-item">
-        <a 
-  href="${it.href}" 
-  ${it.onclick ? `onclick="${it.onclick}; return false;"` : ''} 
-  ${it.target ? 'target="_blank"' : ''} 
-  class="mdui-ripple"
->
-          ${it.text}
-        </a>
-      </li>`;
+        <li class="mdui-menu-item">
+          <a href="${it.href}"
+             ${it.target ? 'target="_blank"' : ''}
+             class="mdui-ripple">
+            ${it.text}
+          </a>
+        </li>`;
     })
     .join("");
 }
 
 // 🔥 EJECUCIÓN
 let player_items = getPlayerItems(url, path);
+// Ahora puedes inyectar `player_items` en tu menú:
+// document.getElementById("menu-player").innerHTML = player_items;
+
+// 🔹 LISTENER GLOBAL PARA M3U
+document.addEventListener("click", function(e) {
+  const el = e.target.closest(".abrir-m3u");
+  if (!el) return;
+
+  const url = el.dataset.url;
+  const name = el.dataset.name;
+
+  abrirM3U(url, name);
+
+  e.preventDefault(); // evita que el link haga algo más
+});
 	
   player_items += `<li class="mdui-divider"></li>
                    <li class="mdui-menu-item"><a id="copy-link" class="mdui-ripple">Copy Link</a></li>`;
@@ -6870,14 +6881,4 @@ $(function () {
   render(path);
 });
 
-document.addEventListener("click", function(e) {
-  const el = e.target.closest(".abrir-m3u");
-  if (!el) return;
 
-  const url = el.dataset.url;
-  const name = el.dataset.name;
-
-  abrirM3U(url, name);
-
-  e.preventDefault();
-});
