@@ -5633,7 +5633,7 @@ function title(path) {
   }
   if (model.is_search_page) {
     display_title += ` - Search Result for ${model.q}`
-    $('title').html(display_title);
+    $('title').html("Series y Peliculas");
   } else {
   const cleanPath = path.toLowerCase().replace(/\//g, "").trim();
 
