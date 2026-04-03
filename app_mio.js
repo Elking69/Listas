@@ -6259,7 +6259,8 @@ function file_video(path) {
           video_subtitle_langs = [video_subtitle_langs];
       }
   } else {
-      video_subtitle_langs = ["en"];
+      video_subtitle_langs = ["es"];
+	  video_subtitle_langs = ["en"];
   }
 
 function getPlayerItems(url, path) {
@@ -6312,10 +6313,19 @@ function getPlayerItems(url, path) {
 
   // fallback universal
   items.push({
-    text: " Descargar",
+    text: "Abrir / Descargar",
     href: url,
     target: "_blank",
+  });
 
+  return items
+    .map(
+      (it) =>
+        `<li class="mdui-menu-item">
+          <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
+            ${it.text}
+          </a>
+        </li>`
     )
     .join("");
 	}
