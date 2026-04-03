@@ -6342,7 +6342,10 @@ items.push({
     target: "_blank",
   });
 
-  if (it.action === "m3u") {
+  return items
+    .map((it) => {
+      // 🔥 MANEJO SEGURO (CLAVE)
+      if (it.action === "m3u") {
   return `
   <li class="mdui-menu-item">
     <a href="#" 
@@ -6870,4 +6873,16 @@ $(function () {
   init();
   var path = window.location.pathname;
   render(path);
+});
+
+document.addEventListener("click", function(e) {
+  const el = e.target.closest(".abrir-m3u");
+  if (!el) return;
+
+  const url = el.dataset.url;
+  const name = el.dataset.name;
+
+  abrirM3U(url, name);
+
+  e.preventDefault(); // evita que el link haga algo más
 });
