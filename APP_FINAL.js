@@ -6356,6 +6356,16 @@ function getPlayerItems(url, path) {
     });
   }
 
+	// --- PC ---
+if (isPC) {
+  items.push({
+    text: "(PC)",
+    href: url,               // Directamente la URL HTTP/HTTPS
+    target: "_blank",        // Opcional: fuerza abrir en nueva pestaña
+    className: "vlc-link",   // clase para estilo si quieres
+  });
+}
+
   // --- Fallback universal ---
   items.push({
     text: "Descargar",
