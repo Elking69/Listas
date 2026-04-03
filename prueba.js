@@ -5635,11 +5635,14 @@ function title(path) {
     display_title += ` - Search Result for ${model.q}`
     $('title').html(display_title);
   } else {
-    if (UI.title_include_path && path !== "Series y Peliculas/") {
-  display_title += ` - ${path}`
-    }
-    $('title').html(display_title);
+  const cleanPath = path.toLowerCase().replace(/\//g, "").trim();
+
+  if (UI.title_include_path && cleanPath !== "series y peliculas") {
+    display_title += ` - ${path}`;
   }
+
+  $('title').html(display_title);
+}
 }
 function nav(path) {
   var model = window.MODEL;
@@ -6900,7 +6903,7 @@ $(function () {
 });
 
 (function () {
-  const TARGET_PATH = "/0:/Series y Películas/";
+  const TARGET_PATH = "/0:/Series y Peliculas/";
 
   // Si estás en root, redirige automáticamente
   if (
