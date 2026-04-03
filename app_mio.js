@@ -6871,16 +6871,3 @@ $(function () {
   var path = window.location.pathname;
   render(path);
 });
-
-
-document.addEventListener("click", function(e) {
-  const el = e.target.closest(".abrir-m3u");
-  if (!el) return;
-
-  const url = el.dataset.url;
-  const name = el.dataset.name;
-
-  abrirM3U(url, name);
-
-  e.preventDefault(); // evita que el link haga algo más
-});
