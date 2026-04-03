@@ -6318,7 +6318,7 @@ function getPlayerItems(url, path) {
   if (isAndroid) {
     items.push({
       text: "VLC (Android)",
-      href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${path};end`,
+      href: `intent:${url}#Intent;package=org.videolan.vlc;type=video;S.title=${encodeURIComponent(path)};end`,
     });
 
     items.push({
@@ -6331,7 +6331,7 @@ function getPlayerItems(url, path) {
   if (isIOS) {
     items.push({
       text: "VLC (iPhone)",
-      href: `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(url)}`,
+      href: `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`,
     });
 
     items.push({
