@@ -6302,7 +6302,7 @@ function getPlayerItems(url, path) {
   if (isPC) {
     items.push({
       text: "VLC (PC)",
-      href: `https://sp3.eacosta.workers.dev/0:/m3u?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`,
+      href: `https://m3u.eacosta.workers.dev/?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`,
     });
 
     items.push({
