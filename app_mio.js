@@ -6263,6 +6263,17 @@ function file_video(path) {
 	  video_subtitle_langs = ["en"];
   }
 	
+// 🔧 FUNCIÓN PARA ABRIR M3U SIN NUEVA PESTAÑA
+function abrirM3U(url, nombre) {
+  const worker = "https://m3u.eacosta.workers.dev/";
+
+  const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${encodeURIComponent(nombre)}`;
+
+  // 🔥 clave: no abre pestaña, descarga directo
+  window.location.href = finalUrl;
+}
+
+
 function getPlayerItems(url, path) {
   const ua = navigator.userAgent.toLowerCase();
 
@@ -6298,22 +6309,25 @@ function getPlayerItems(url, path) {
     });
   }
 
-  // PC
+  // PC (MEJORADO 🔥)
   if (isPC) {
     items.push({
-      text: "VLC (PC)",
-      href: `https://m3u.eacosta.workers.dev/?url=${encodeURIComponent(url)}&title=${encodeURIComponent(path)}`,
+      text: "Abrir en VLC",
+      href: "javascript:void(0)",
+      onclick: `abrirM3U('${url}', '${path}')`
     });
+
 
     items.push({
       text: "PotPlayer",
       href: `potplayer://${url}`,
     });
+	
   }
 
   // fallback universal
   items.push({
-    text: "Abrir / Descargar",
+    text: "Descargar",
     href: url,
     target: "_blank",
   });
@@ -6322,15 +6336,21 @@ function getPlayerItems(url, path) {
     .map(
       (it) =>
         `<li class="mdui-menu-item">
-          <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
+          <a 
+            href="${it.href}" 
+            ${it.onclick ? `onclick="${it.onclick}"` : ''} 
+            ${it.target ? 'target="_blank"' : ''} 
+            class="mdui-ripple"
+          >
             ${it.text}
           </a>
         </li>`
     )
     .join("");
-	}
+}
 
 
+// 🔥 EJECUCIÓN
 let player_items = getPlayerItems(url, path);
 	
   player_items += `<li class="mdui-divider"></li>
