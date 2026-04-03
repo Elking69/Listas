@@ -6342,17 +6342,17 @@ items.push({
     target: "_blank",
   });
 
-  return items
-    .map((it) => {
-      // 🔥 MANEJO SEGURO (CLAVE)
-      if (it.action === "m3u") {
-        return `
-        <li class="mdui-menu-item">
-          <a href="javascript:void(0)" onclick='abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;' class="mdui-ripple">
-            ${it.text}
-          </a>
-        </li>`;
-      }
+  if (it.action === "m3u") {
+  return `
+  <li class="mdui-menu-item">
+    <a href="#" 
+       class="mdui-ripple abrir-m3u" 
+       data-url="${it.url}" 
+       data-name="${it.name}">
+      ${it.text}
+    </a>
+  </li>`;
+}
 
       return `
       <li class="mdui-menu-item">
@@ -6870,4 +6870,17 @@ $(function () {
   init();
   var path = window.location.pathname;
   render(path);
+});
+
+
+document.addEventListener("click", function(e) {
+  const el = e.target.closest(".abrir-m3u");
+  if (!el) return;
+
+  const url = el.dataset.url;
+  const name = el.dataset.name;
+
+  abrirM3U(url, name);
+
+  e.preventDefault(); // evita que el link haga algo más
 });
