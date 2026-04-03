@@ -6348,7 +6348,7 @@ items.push({
       if (it.action === "m3u") {
         return `
         <li class="mdui-menu-item">
-          <a href="javascript:void(0)" onclick="abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;" class="mdui-ripple">
+          <a href="javascript:void(0)" onclick='abrirM3U(${JSON.stringify(it.url)}, ${JSON.stringify(it.name)}); return false;' class="mdui-ripple">
             ${it.text}
           </a>
         </li>`;
