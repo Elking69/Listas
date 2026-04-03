@@ -6900,7 +6900,7 @@ $(function () {
 });
 
 (function () {
-  const TARGET_PATH = "/0:/Series y Peliculas/";
+  const TARGET_PATH = "/0:/Series y Películas/";
 
   // Si estás en root, redirige automáticamente
   if (
