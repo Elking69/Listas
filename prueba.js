@@ -5635,8 +5635,9 @@ function title(path) {
     display_title += ` - Search Result for ${model.q}`
     $('title').html(display_title);
   } else {
-    if (UI.title_include_path) {
-      display_title += ` - ${path}`
+    if (UI.title_include_path && path !== "Series y Peliculas/") {
+  display_title += ` - ${path}`
+}
     }
     $('title').html(display_title);
   }
