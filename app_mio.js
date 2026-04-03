@@ -6269,7 +6269,6 @@ function abrirM3U(url, nombre) {
 
   const finalUrl = `${worker}?url=${encodeURIComponent(url)}&title=${encodeURIComponent(nombre)}`;
 
-  // 🔥 clave: no abre pestaña, descarga directo
   window.location.href = finalUrl;
 }
 
@@ -6312,9 +6311,11 @@ function getPlayerItems(url, path) {
   // PC (MEJORADO 🔥)
   if (isPC) {
     items.push({
-      text: "Abrir en VLC",
-      href: "javascript:void(0)",
-      onclick: `abrirM3U('${url}', '${path}')`
+      text: "Abrir en VLC (PC)",
+      href: "#",
+      action: "m3u",
+      url: url,
+      name: path
     });
 
 
@@ -6333,22 +6334,26 @@ function getPlayerItems(url, path) {
   });
 
   return items
-    .map(
-      (it) =>
-        `<li class="mdui-menu-item">
-          <a 
-            href="${it.href}" 
-            ${it.onclick ? `onclick="${it.onclick}"` : ''} 
-            ${it.target ? 'target="_blank"' : ''} 
-            class="mdui-ripple"
-          >
+    .map((it) => {
+      // 🔥 MANEJO SEGURO (CLAVE)
+      if (it.action === "m3u") {
+        return `
+        <li class="mdui-menu-item">
+          <a href="#" onclick="abrirM3U('${encodeURIComponent(it.url)}','${encodeURIComponent(it.name)}'); return false;" class="mdui-ripple">
             ${it.text}
           </a>
-        </li>`
-    )
+        </li>`;
+      }
+
+      return `
+      <li class="mdui-menu-item">
+        <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
+          ${it.text}
+        </a>
+      </li>`;
+    })
     .join("");
 }
-
 
 // 🔥 EJECUCIÓN
 let player_items = getPlayerItems(url, path);
