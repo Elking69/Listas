@@ -6312,19 +6312,10 @@ function getPlayerItems(url, path) {
 
   // fallback universal
   items.push({
-    text: "Abrir / Descargar",
+    text: " Descargar",
     href: url,
     target: "_blank",
   });
-
-  return items
-    .map(
-      (it) =>
-        `<li class="mdui-menu-item">
-          <a href="${it.href}" ${it.target ? 'target="_blank"' : ''} class="mdui-ripple">
-            ${it.text}
-          </a>
-        </li>`
     )
     .join("");
 	}
