@@ -6262,36 +6262,6 @@ function file_video(path) {
       video_subtitle_langs = ["es"];
 	  video_subtitle_langs = ["en"];
   }
-
-export default {
-  async fetch(request) {
-    const url = new URL(request.url);
-
-    // 1. Obtener la URL del video
-    const videoUrl = url.searchParams.get("url");
-
-    // 2. Obtener nombre opcional
-    const title = url.searchParams.get("title") || "Video";
-
-    // 3. Validación básica
-    if (!videoUrl) {
-      return new Response("Falta la URL del video", { status: 400 });
-    }
-
-    // 4. Crear contenido M3U
-    const contenido = `#EXTM3U
-#EXTINF:-1,${title}
-${videoUrl}`;
-
-    // 5. Enviar archivo
-    return new Response(contenido, {
-      headers: {
-        "Content-Type": "audio/x-mpegurl",
-        "Content-Disposition": "attachment; filename=\"video.m3u\""
-      }
-    });
-  }
-};
 	
 function getPlayerItems(url, path) {
   const ua = navigator.userAgent.toLowerCase();
