@@ -1,4 +1,10 @@
 /*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */
+
+setTimeout(() => {
+  document.title = "Series y Películas - Drive";
+}, 500);
+
+
 !(function (e, t) {
   "use strict";
   "object" == typeof module && "object" == typeof module.exports
@@ -5633,13 +5639,16 @@ function title(path) {
   }
   if (model.is_search_page) {
     display_title += ` - Search Result for ${model.q}`
-    $('title').html(display_title);
+    $('title').html("Series y Peliculas");
   } else {
-    if (UI.title_include_path) {
-      display_title += ` - ${path}`
-    }
-    $('title').html(display_title);
+  const cleanPath = path.toLowerCase().replace(/\//g, "").trim();
+
+  if (UI.title_include_path && cleanPath !== "series y peliculas") {
+    display_title += ` - ${path}`;
   }
+
+  $('title').html(display_title);
+}
 }
 function nav(path) {
   var model = window.MODEL;
@@ -6899,3 +6908,14 @@ $(function () {
   render(path);
 });
 
+(function () {
+  const TARGET_PATH = "/0:/Series y Peliculas/";
+
+  // Si estás en root, redirige automáticamente
+  if (
+    location.pathname === "/0:/" ||
+    location.pathname === "/"
+  ) {
+    location.replace(TARGET_PATH);
+  }
+})();
