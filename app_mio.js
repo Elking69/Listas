@@ -6315,7 +6315,7 @@ function getPlayerItems(url, path) {
     text: " Descargar",
     href: url,
     target: "_blank",
-  });
+
     )
     .join("");
 	}
